@@ -1,0 +1,12 @@
+{
+ "foreign_shells": [
+  {
+   "shell": "bash"
+  }
+ ],
+ "xontribs": [
+  "apt_tabcomplete",
+  "coreutils",
+  "whole_word_jumping"
+ ]
+}

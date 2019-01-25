@@ -1,0 +1,16 @@
+{
+ "env": {
+  "PROMPT":"{env_name:{} }{BACKGROUND_INTENSE_GREEN}{BLACK}{user}@{hostname}{INTENSE_GREEN}{BACKGROUND_INTENSE_BLUE}{INTENSE_GREEN}{NO_COLOR}{BACKGROUND_INTENSE_BLUE}{INTENSE_WHITE}{cwd}{INTENSE_BLUE}{BACKGROUND_INTENSE_WHITE}{gitstatus}{BACKGROUND_BLACK}{INTENSE_WHITE}{NO_COLOR} {prompt_end}{NO_COLOR} ",
+  "UPDATE_COMPLETIONS_ON_KEYPRESS": true
+ },
+ "foreign_shells": [
+  {
+   "shell": "bash"
+  }
+ ],
+ "xontribs": [
+  "apt_tabcomplete",
+  "coreutils",
+  "whole_word_jumping"
+ ]
+}

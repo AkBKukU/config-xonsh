@@ -1,0 +1,16 @@
+{
+ "env": {
+  "PROMPT": "{env_name:{}}{user}@{hostname}:{cwd}{branch_color}{curr_branch:{}}{prompt_end} ",
+  "UPDATE_COMPLETIONS_ON_KEYPRESS": true
+ },
+ "foreign_shells": [
+  {
+   "shell": "bash"
+  }
+ ],
+ "xontribs": [
+  "apt_tabcomplete",
+  "coreutils",
+  "whole_word_jumping"
+ ]
+}
